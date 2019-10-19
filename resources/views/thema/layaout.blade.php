@@ -17,11 +17,12 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     </head>
     <body class="hold-transition sidebar-mini layout-boxed">
-           
+        @include("thema/aside")
             <!-- Site wrapper -->
             <div class="wrapper">
-                    @include("thema/aside")
+       
                 @include("thema/header")
+                
                 <!-- Content Wrapper. Contains page content -->
                 <div class="content-wrapper">
                         <section class="content">
